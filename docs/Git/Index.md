@@ -19,7 +19,7 @@ git config user.email mail@gmail.com
     --global
     ```
 
-Далее сбрасываем автора
+Далее сбрасываем автора, если он изначально не был задан для данного репозитория
 
 ```bash
 git commit --amend --reset-author

@@ -1,5 +1,8 @@
 # Оформление
 
+## Абзац
+Новый абзац создается двумя пробелами в конце строки.  
+
 ## Цветовый схемы
 Наименование цветовых [схем](https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/)
 
