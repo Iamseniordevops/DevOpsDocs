@@ -7,7 +7,7 @@
 
 Вот пример вставки видео с YouTube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G3Cytlicv8Y?si=cOBZ70OK_o-XV2sM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-YA_dA8C20?si=GPVwXIjvTXQ5Mj6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Вставка локального видео
 
