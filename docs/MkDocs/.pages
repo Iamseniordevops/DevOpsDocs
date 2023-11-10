@@ -1,0 +1,13 @@
+---
+#title: Новая секция
+nav:
+    - Главная: index.md
+    - Возможности MkDocs: # Раздел с вложенными страницами
+        - Code.md
+        - Design.md
+        - Images.md
+        - Video.md
+        - Icons.md
+        - Key.md  
+    - Navigation.md 
+   # - ... # добавляет все неперечисленные страницы

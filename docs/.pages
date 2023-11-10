@@ -1,0 +1,6 @@
+---
+nav:
+    - index.md
+    - MkDocs основы: MkDocs
+    - Папка 2: Folder2
+    #- ...

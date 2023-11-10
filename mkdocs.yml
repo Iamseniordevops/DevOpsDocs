@@ -1,0 +1,91 @@
+site_name: DevOps documentation
+site_url: https://Iamseniordevops.github.io/DevOpsDocs/
+theme:
+  font:
+    text: Noto Serif
+    code: Roboto Mono
+
+  name: material
+  features:
+    - navigation.tabs
+    #- navigation.sections
+    #- navigation.expand # развернет все свертываемые подразделы слева при включении
+    - navigation.indexes
+    #- toc.integrate #включение делает оглавление слева внутри основного списка, отключение переносит вправо
+    - toc.follow
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.annotate
+    - content.code.copy
+  language: ru
+  palette:
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: deep purple
+      accent: amber 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: indigo
+      accent: amber
+
+plugins:
+ #   - mkdocs-video
+    - search
+    - awesome-pages
+    - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+ # - pymdownx.emoji:
+  #    emoji_index: !!python/name:materialx.emoji.twemoji
+   #   emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://iamseniordevops.github.io/"  target="_blank" rel="noopener">DevOps</a>
