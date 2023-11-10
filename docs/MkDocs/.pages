@@ -9,5 +9,6 @@ nav:
         - Video.md
         - Icons.md
         - Key.md  
-    - Navigation.md 
+        - Command.md
+        - Navigation.md 
    # - ... # добавляет все неперечисленные страницы
