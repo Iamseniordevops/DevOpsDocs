@@ -3,4 +3,5 @@ nav:
     - Start: index.md
     - MkDocs: MkDocs
     - Git: Git
+    - Windows: Windows
     #- ...

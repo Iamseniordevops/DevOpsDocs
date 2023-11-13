@@ -10,5 +10,6 @@ nav:
         - Icons.md
         - Key.md  
         - Command.md
-        - Navigation.md 
+        - Navigation.md
+        - PluginForVSCode.md 
    # - ... # добавляет все неперечисленные страницы
