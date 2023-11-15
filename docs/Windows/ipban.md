@@ -49,7 +49,7 @@ sc.exe create IPBAN type=own start=delayed-auto binPath=c:\IPBAN\DigitalRuby.IPB
  По умолчанию время бана ip сутки
 
 ```
-<<add key="BanTime" value="01:00:00:00"/>
+<add key="BanTime" value="01:00:00:00"/>
 ```
 
 Устанавливаем необходимое время бана. Например минуту
@@ -69,6 +69,9 @@ sc.exe create IPBAN type=own start=delayed-auto binPath=c:\IPBAN\DigitalRuby.IPB
 Далее сохраняем файл с настройками.
 
 Полный список параметров [конфигурационного файла.](https://github.com/DigitalRuby/IPBan/wiki/Configuration)
+
+!!! note
+IPban добавляет правила во встроенный брандмауер windows. Если установлен сторонний продукт, например Kaspersky Endpoint Security, то в нем нужно отключить межсетевой экран. 
 ## Запуск IPBan
 Для запуска IPban открываем оснастку службы. Для ее вызова нажимаем ++win+r++
 
