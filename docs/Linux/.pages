@@ -1,0 +1,10 @@
+---
+nav:
+    - Главная: index.md
+    - Структура и команды Linux:
+        - Каталоги Linux: folder.md
+     
+#    - PowerShell:
+ #       - Полезные скрипты: powershell.md   
+    
+    #- ...

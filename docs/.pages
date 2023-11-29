@@ -4,4 +4,5 @@ nav:
     - MkDocs: MkDocs
     - Git: Git
     - Windows: Windows
+    - Linux: Linux
     #- ...
