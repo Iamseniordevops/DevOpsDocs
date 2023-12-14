@@ -1,0 +1,11 @@
+---
+nav:
+    - Главная: index.md
+
+     
+    - EMS:
+        - Подключение к Exchange: exchangeConnect.md   
+    - Troubleshooting:
+        - Синхронизация бесед в другую учетную запись: skypechat.md
+    
+    #- ...

@@ -97,6 +97,18 @@ if($PSOneGetModule)
 
 ```
 
+### Вывод данных сессии PowerShell    
+```pwsh-session
+
+
+Name               Host Version & Build Version    
+----               ----------------------------    
+esxi.test.com     VMware ESXi 7.0.2 build-17630552
+
+
+PS C:\Users\admin1> 
+```
+
 
 ### Python
 
@@ -163,4 +175,5 @@ theme:
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be written in Markdown.
+
 
