@@ -5,6 +5,7 @@ nav:
     - Git: Git
     - MkDocs: MkDocs
     - Windows: Windows
+    - MacOS: MacOS
     - MS Excnange: MSExchange
    
     #- ...
