@@ -7,5 +7,7 @@ nav:
         - Подключение к Exchange: exchangeConnect.md   
     - Troubleshooting:
         - Синхронизация бесед в другую учетную запись: skypechat.md
-    
+    - Install:
+        - Установка: Install.md
+        - Проверка установки: installationСheck.md
     #- ...
