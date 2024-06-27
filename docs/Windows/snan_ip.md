@@ -5,4 +5,11 @@
 ``` doscon
 runas /netonly /user:Domain\User "mmc dnsmgmt.msc"
 ```
-
+DNS
+``` doscon  
+dnsmgmt.msc	
+```
+Active Directory домены и доверие
+``` doscon  
+domain.msc
+```
