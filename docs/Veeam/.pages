@@ -1,0 +1,9 @@
+---
+nav:
+    - Главная: index.md
+    - Откат VEM после неудачного обновления: VEM_restore_from_Backup.md
+        
+     
+    
+    
+    #- ...
