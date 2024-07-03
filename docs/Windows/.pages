@@ -3,7 +3,7 @@ nav:
     - Главная: index.md
     - Безопасность:
         - Настройка безопасного доступа по RDP: ipban.md
-     
+        - Group Managed Service Accounts: gMSA.md     
     - PowerShell:
         - Полезные скрипты: powershell.md   
     - Управление: 
