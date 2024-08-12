@@ -1,7 +1,7 @@
 #Добавление компьютеров в групповую политику с помощью Powershell
 
 ``` powershell
-$GPOName = "GLOBAL_VEEAMBR_Tempate_2016"
+$GPOName = "GLOBAL_VEEAMBR_Tempate"
 $Computers = @(
 "EKT-VBP",
 "EKT-VBR"
