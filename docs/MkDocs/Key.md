@@ -8,4 +8,6 @@
 
 ++ctrl+shift+esc++
 
+++win+r++
+
 [Информация о навигации в RockyLinux](https://docs.rockylinux.org/guides/contribute/navigation/)
