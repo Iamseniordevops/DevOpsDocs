@@ -13,3 +13,30 @@ if ($fileHash -eq $knownHash) {
 }
 
 ```
+## Вывод списка процессов отфильтрованных по пользователю
+``` powershell linenums="1"
+Get-Process -IncludeUserName | Where-Object {$_.Username -eq "ssaas\prtg"}
+```
+## Вывод имени, CPU, RAM, User, и времени старта процессов по пользователю
+``` powershell linenums="1"
+Get-Process -IncludeUserName | Where-Object {$_.Username -eq "ssaas\prtg"} | Select-Object name, CPU, WS, Username, StartTime | ft -a
+```
+## Завершение всех процессов пользователя
+``` powershell linenums="1"
+# Определяем имя пользователя
+$username = "ssaas\prtg"
+
+# Получаем список процессов, запущенных указанным пользователем
+$processes = Get-Process -IncludeUserName | Where-Object { $_.UserName -eq $username }
+
+# Завершаем каждый процесс
+foreach ($process in $processes) {
+    try {
+        $process.Kill()  # Быстрое завершение процесса
+        Write-Host "Процесс с ID $($process.Id) ($($process.Name)) завершён."
+    } catch {
+        Write-Warning "Не удалось завершить процесс с ID $($process.Id) ($($process.Name)): $_"
+    }
+}
+```
+

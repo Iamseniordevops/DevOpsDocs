@@ -13,3 +13,7 @@ Active Directory домены и доверие
 ``` doscon  
 domain.msc
 ```
+Консоль управления GPO (Group Policy Management Console)
+```
+gpmc.msc	
+```

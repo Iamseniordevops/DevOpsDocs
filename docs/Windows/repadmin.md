@@ -1,8 +1,12 @@
 # Принудильная репликация всех контроллеров домена
 
 С помощью Powershell
-``` powershell 
-Get-ADDomainController -Filter * | ForEach-Object { Repadmin /syncall $_.hostname }
+``` powershell linenums="1" 
+Get-ADDomainController -Filter * |
+ForEach-Object {
+    Repadmin /syncall $_.hostname
+}
+
 ```
 
 Через repadmin

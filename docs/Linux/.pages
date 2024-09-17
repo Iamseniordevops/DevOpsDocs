@@ -3,7 +3,9 @@ nav:
     - Главная: index.md
     - Структура и команды Linux:
         - Каталоги Linux: folder.md
-     
+        - Команды Linux: command.md
+    - Практические примеры:
+        - Устранение неполадок в Ansible связанных с истечением срока жизни токен Vault: practice.md
 #    - PowerShell:
  #       - Полезные скрипты: powershell.md   
     
