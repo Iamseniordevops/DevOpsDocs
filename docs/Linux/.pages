@@ -6,6 +6,7 @@ nav:
         - Команды Linux: command.md
     - Практические примеры:
         - Устранение неполадок в Ansible связанных с истечением срока жизни токен Vault: practice.md
+        - Полезные утилиты: tools.md
 #    - PowerShell:
  #       - Полезные скрипты: powershell.md   
     
