@@ -7,7 +7,7 @@ runas /netonly /user:Domain\User "mmc dnsmgmt.msc"
 ```
 DNS
 ``` doscon  
-dnsmgmt.msc	
+dnsmgmt.msc
 ```
 Active Directory домены и доверие
 ``` doscon  
@@ -15,5 +15,9 @@ domain.msc
 ```
 Консоль управления GPO (Group Policy Management Console)
 ```
-gpmc.msc	
+gpmc.msc
+```
+Управление сертификатами
+```
+certmgr.msc
 ```
