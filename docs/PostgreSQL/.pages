@@ -1,0 +1,20 @@
+---
+nav:
+    - Главная: index.md
+    <!-- 
+    - Безопасность:
+        - Настройка безопасного доступа по RDP: ipban.md
+        - Group Managed Service Accounts: gMSA.md
+             
+    - PowerShell:
+        - Полезные скрипты: powershell.md 
+        - Ручная репликация AD: repadmin.md
+        - Добавление компьютеров в групповую политику с помощью Powershell: addComputerToGP.md  
+    - Управление: 
+        - Оснастки: snan_ip.md
+    - Исправление ошибок:
+        - Ошибка сопоставления групповой политики VPN: gpVpnError.md
+    - DNS:
+        - Экспорт DNS: dns.md
+    -->    
+        #- ...

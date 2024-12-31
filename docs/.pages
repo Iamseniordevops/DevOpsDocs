@@ -2,6 +2,7 @@
 nav:
     - Start: index.md
     - Linux: Linux
+    - PostgreSQL: PostgreSQL
     - Git: Git
     - MkDocs: MkDocs
     - Windows: Windows
