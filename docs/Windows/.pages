@@ -18,4 +18,6 @@ nav:
     
     - Загрузка видео и создание субтитров:
         - Загрузка видео и создание субтитров: downloadVideo.md
+    - Перевод видео:
+        - SoniTranslate: videotranslate.md
     #- ...
