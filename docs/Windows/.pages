@@ -20,4 +20,6 @@ nav:
         - Загрузка видео и создание субтитров: downloadVideo.md
     - Перевод видео:
         - SoniTranslate: videotranslate.md
+    - Настройка RDP:
+        - Использование части мониторов в RDP: SomeOfMultiMon.md
     #- ...
