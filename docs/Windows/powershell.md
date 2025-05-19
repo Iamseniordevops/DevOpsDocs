@@ -13,6 +13,10 @@ if ($fileHash -eq $knownHash) {
 }
 
 ```
+Проверка с помощью certutil
+```
+certutil -hashfile SQLServer2019-KB5049235-x64.exe SHA256
+```
 ## Вывод списка процессов отфильтрованных по пользователю
 ``` powershell linenums="1"
 Get-Process -IncludeUserName | Where-Object {$_.Username -eq "ssaas\prtg"}
@@ -39,4 +43,7 @@ foreach ($process in $processes) {
     }
 }
 ```
-
+Фильтрация в командной строке
+```
+arp -a | findstr 10.7.28.174
+```
