@@ -47,3 +47,8 @@ foreach ($process in $processes) {
 ```
 arp -a | findstr 10.7.28.174
 ```
+
+Очистка всех корзин на терминальном сервере
+``` powershell linenums="1"
+Get-ChildItem -Path 'C:\$Recycle.Bin' -Force | Remove-Item -Recurse -ErrorAction SilentlyContinue
+```
