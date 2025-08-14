@@ -43,12 +43,35 @@ foreach ($process in $processes) {
     }
 }
 ```
-Фильтрация в командной строке
+# Фильтрация в командной строке
 ```
 arp -a | findstr 10.7.28.174
 ```
 
-Очистка всех корзин на терминальном сервере
+# Очистка всех корзин на  терминальном сервере
 ``` powershell linenums="1"
 Get-ChildItem -Path 'C:\$Recycle.Bin' -Force | Remove-Item -Recurse -ErrorAction SilentlyContinue
+```
+
+# Скрипт для очистки папки Temp
+``` powershell linenums="1"
+$ProgressPreference='SilentlyContinue'
+$count = 0
+$start = Get-Date
+
+Get-ChildItem "C:\Windows\Temp" -Recurse -Force -File -ErrorAction SilentlyContinue |
+ForEach-Object {
+    Remove-Item $_.FullName -Force -ErrorAction SilentlyContinue
+    $count++
+    if ($count % 1000 -eq 0) {
+        $elapsed = (Get-Date) - $start
+        $speed = [math]::Round($count / $elapsed.TotalSeconds, 2)
+        Write-Host "$count файлов удалено, скорость: $speed файлов/сек"
+    }
+}
+
+Get-ChildItem "C:\Windows\Temp" -Recurse -Force -Directory -ErrorAction SilentlyContinue |
+ForEach-Object {
+    Remove-Item $_.FullName -Recurse -Force -ErrorAction SilentlyContinue
+}
 ```
