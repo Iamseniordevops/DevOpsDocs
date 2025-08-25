@@ -3,6 +3,7 @@ nav:
     - Главная: index.md
     - Установка:
         - Создание загрузочного ISO: iso.md
+    - Visual Studio Code: VisualStudioCode.md
      
 
     
