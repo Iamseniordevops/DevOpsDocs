@@ -22,4 +22,6 @@ nav:
         - SoniTranslate: videotranslate.md
     - Настройка RDP:
         - Использование части мониторов в RDP: SomeOfMultiMon.md
+    - Фаервол:
+        - Анализатор логов фаервола: firewall_analyzer.md
     #- ...
