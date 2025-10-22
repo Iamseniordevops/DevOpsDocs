@@ -3,14 +3,18 @@
 ## Проверка хеш (Hash) файлов
 В первую строку после $knownHash нужно внести свое значение хеш суммы, во второй строке после -Path внести путь к проверяемому файлу. 
 ``` powershell linenums="1"
-$knownHash = "171B2EE89B4DD93FF151D8850B8A5AA7"
-$fileHash = (Get-FileHash -Path "C:\VM.iso" -Algorithm MD5).Hash
+ Clear-Host
+$knownHash = "968732013f3c6e13b59881caeee812f2"
+$fileHash = (Get-FileHash -Path "F:\13.0.0.4967.zip" -Algorithm MD5).Hash
 
 if ($fileHash -eq $knownHash) {
-    Write-Host "Хеш соответствует известному значению"
+    Write-Host "Хеш соответствует известному значению" -ForegroundColor Green
+    Write-Host $fileHash -ForegroundColor Green
 } else {
-    Write-Host "Хеш не соответствует известному значению"
-}
+    Write-Host "Хеш не соответствует известному значению" -ForegroundColor Red
+    Write-Host $fileHash -ForegroundColor Red
+
+} 
 
 ```
 Проверка с помощью certutil
