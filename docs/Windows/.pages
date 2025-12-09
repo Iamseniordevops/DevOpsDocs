@@ -8,7 +8,8 @@ nav:
     - PowerShell:
         - Полезные скрипты: powershell.md 
         - Ручная репликация AD: repadmin.md
-        - Добавление компьютеров в групповую политику с помощью Powershell: addComputerToGP.md  
+        - Добавление компьютеров в групповую политику с помощью Powershell: addComputerToGP.md
+        - Смена пароля локального и доменного пользователя с помощью PowerShell: changePassword.md  
     - Управление: 
         - Оснастки: snan_ip.md
     - Исправление ошибок:
