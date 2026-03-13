@@ -2,6 +2,7 @@
 #title: Новая секция
 nav:
     - Главная: index.md
+    - Установка: install.md
     - Возможности MkDocs: # Раздел с вложенными страницами
         - Code.md
         - Design.md
@@ -12,4 +13,5 @@ nav:
         - Command.md
         - Navigation.md
         - PluginForVSCode.md 
+    
    # - ... # добавляет все неперечисленные страницы
