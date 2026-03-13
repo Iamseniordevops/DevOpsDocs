@@ -69,7 +69,7 @@
 **Пример сценария:**
 ```bash
 rsync -avz --delete /src/ user@host:/backup/
-````
+```
 
 ---
 
@@ -113,21 +113,21 @@ rsync -avz --delete /src/ user@host:/backup/
 
 ## Если нужна полная справка в браузере
 
-* **Debian:** `manpages.debian.org`
-* **Ubuntu:** `manpages.ubuntu.com`
-* **RHEL / Rocky / Alma / CentOS:** `mankier.com`
+* **[Debian - manpages.debian.org](https://manpages.debian.org)**
+* **[Ubuntu - manpages.ubuntu.com](https://manpages.ubuntu.com)**
+* **[RHEL / Rocky / Alma / CentOS - mankier.com](https://mankier.com)**
 
 ## Если нужны короткие практические примеры
 
-* `tldr.inbrowser.app`
+* [tldr.inbrowser.app](https://tldr.inbrowser.app/)
 
 ## Если нужно разобрать длинную готовую команду
 
-* `explainshell.com`
+* [explainshell.com](https://explainshell.com/)
 
 ## Если нужен дополнительный общий индекс
 
-* `man.cx`
+* [man.cx](https://man.cx/)
 
 ---
 
@@ -149,5 +149,9 @@ rsync -avz --delete /src/ user@host:/backup/
 Если нужно **быстро понять команду**, лучше использовать `tldr.inbrowser.app`.
 
 Если нужно **разобрать конкретную длинную команду по частям**, лучший выбор — `explainshell.com`.
+
+---
+    
+!!! note "Некоторые сайты могут быть недоступны из-за блокировок по географическому признаку"
 
 
