@@ -27,4 +27,6 @@ nav:
         - Анализатор логов фаервола: firewall_analyzer.md
     - Групповая политика:
         - Перенос локальной GPO на другой компьютер: lgpo_transfer_plan.md
+    - Работа с дисками:
+        - recoveryPartition: recoveryPartition.md
     #- ...
